@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/ycao/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/ycao/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/ycao/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

@@ -1,0 +1,4 @@
+source;share/openloop/local_setup.bash
+source;share/openloop/local_setup.dsv
+source;share/openloop/local_setup.sh
+source;share/openloop/local_setup.zsh

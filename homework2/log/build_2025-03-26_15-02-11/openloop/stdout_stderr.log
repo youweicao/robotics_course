@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/openloop.dir/src/openloop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable openloop[0m
+[100%] Built target openloop
+-- Install configuration: ""
+-- Installing: /home/ycao/robotics_course/homework2/install/openloop/lib/openloop/openloop
+-- Set runtime path of "/home/ycao/robotics_course/homework2/install/openloop/lib/openloop/openloop" to ""
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/package_run_dependencies/openloop
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/parent_prefix_path/openloop
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/path.sh
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/path.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.bash
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.sh
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.zsh
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.dsv
+-- Installing: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/package.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/packages/openloop
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/cmake/openloopConfig.cmake
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/cmake/openloopConfig-version.cmake
+-- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/package.xml

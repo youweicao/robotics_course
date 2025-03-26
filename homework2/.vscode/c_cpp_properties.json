@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_hg/include/**",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+        "/home/ycao/interbotix_ws/install/moveit_visual_tools/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_rviz/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_ros_control/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_msgs/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_xs_driver/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_perception_msgs/include/**",
+        "/home/ycao/interbotix_ws/install/interbotix_moveit_interface_msgs/include/**",
+        "/home/ycao/interbotix_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/ycao/apriltag_ws/install/apriltag_ros/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ycao/robotics_course/homework2/src/openloop/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
