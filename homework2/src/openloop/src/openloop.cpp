@@ -1,6 +1,7 @@
 #include<iostream>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include <cmath>    
 
 class Turtlebot : public rclcpp::Node 
 {
@@ -34,39 +35,88 @@ Turtlebot::~Turtlebot()
 void Turtlebot::run()
 {
     geometry_msgs::msg::Twist vel;
-
-
-    if (counter_>0 && counter_<20)
+    vel.linear.y = 0;
+    if(counter_ >=0 && counter_<=10)
     {
-        vel.linear.x = 0.5;
-        vel.linear.y = 0.0;
+        vel.linear.x = 1.0;
+        vel.linear.y = 0;
+        vel.linear.z = 0;
+        vel.angular.x = 0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
     } 
-    else if (counter_>=20 && counter_<100)
+    else if (counter_>=10&& counter_<50)
     {
-        vel.linear.x = 0.5;
-        vel.linear.y = 0.0;
-    }
-    else if (counter_>=100 && counter_<180)
-    {
-        vel.linear.x = 0.0;
-        vel.linear.y = 0.5;
-    }
-    else if (counter_>=180 && counter_<260)
-    {
-        vel.linear.x = -0.5;
-        vel.linear.y = 0.0;
-    }
-    else if (counter_>=260 && counter_<340)
+        vel.linear.x = 1.0;
+        vel.linear.y = 0;
+        vel.linear.z = 0;
+        vel.angular.x = 0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
+    } 
+    else if (counter_>=50 && counter_<60)
     {
         vel.linear.x = 0.0;
-        vel.linear.y = -0.5;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = M_PI_2;
+    }
+    else if (counter_>=60 && counter_<100)
+    {
+        vel.linear.x = 1.0;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
+    }
+    else if (counter_>=100 && counter_<110)
+    {
+        vel.linear.x = 0.0;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = M_PI_2;
+    }
+    else if (counter_>=110 && counter_<150)
+    {
+        vel.linear.x = 1.0;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
+    }
+    else if (counter_>=150 && counter_<160)
+    {
+        vel.linear.x = 0.0;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = M_PI_2;
+    }
+    else if (counter_>=160 && counter_<200)
+    {
+        vel.linear.x = 1.0;
+        vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
     }
     else
     {
         vel.linear.x = 0.0;
         vel.linear.y = 0.0;
+        vel.linear.z = 0.0;
+        vel.angular.x = 0.0;
+        vel.angular.y = 0.0;
+        vel.angular.z = 0.0;
     }
-
     vel_pub_->publish(vel);
     counter_++;
 

@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/ycao/robotics_course/homework2/build/openloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework2/build/openloop -- -j20 -l20
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target openloop[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/openloop.dir/src/openloop.cpp.o[0m
+[6.679s] [100%] [32m[1mLinking CXX executable openloop[0m
+[7.039s] [100%] Built target openloop
+[7.081s] Invoked command in '/home/ycao/robotics_course/homework2/build/openloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework2/build/openloop -- -j20 -l20
+[7.093s] Invoking command in '/home/ycao/robotics_course/homework2/build/openloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework2/build/openloop
+[7.122s] -- Install configuration: ""
+[7.123s] -- Installing: /home/ycao/robotics_course/homework2/install/openloop/lib/openloop/openloop
+[7.128s] -- Set runtime path of "/home/ycao/robotics_course/homework2/install/openloop/lib/openloop/openloop" to ""
+[7.129s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/package_run_dependencies/openloop
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/parent_prefix_path/openloop
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/ament_prefix_path.sh
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/ament_prefix_path.dsv
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/path.sh
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/environment/path.dsv
+[7.130s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.bash
+[7.132s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.sh
+[7.132s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.zsh
+[7.133s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/local_setup.dsv
+[7.133s] -- Installing: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/package.dsv
+[7.133s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/ament_index/resource_index/packages/openloop
+[7.134s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/cmake/openloopConfig.cmake
+[7.134s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/cmake/openloopConfig-version.cmake
+[7.137s] -- Up-to-date: /home/ycao/robotics_course/homework2/install/openloop/share/openloop/package.xml
+[7.140s] Invoked command in '/home/ycao/robotics_course/homework2/build/openloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework2/build/openloop
