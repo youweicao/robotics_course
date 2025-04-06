@@ -63,12 +63,7 @@ public:
     }
 
     ~Turtlebot() {
-        // std::ofstream file("trajectory.csv");
-        // for (const auto& point : trajectory_) {
-        //     file << point[0] << "," << point[1] << "\n";
-        // }
-        // file.close();
-        // RCLCPP_INFO(this->get_logger(), "Trajectory saved.");
+    
     }
     void run() {
         move_to_point(0,0);

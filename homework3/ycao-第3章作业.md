@@ -93,6 +93,37 @@ void move_to_point(double x, double y, double tolerance = 0.1) {
     }
 ```
 即采用先转角，再向前移动的思路。
+# 一些问题与处理方法
+## 关于多线程并行
+下面的订阅器
+```cpp
+odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>("odom", 10, std::bind(&Turtlebot::odom_callback, this, _1));
+```
+如果遇到阻塞进程的（例如while）会导致回调不成功。因此开多线程解决。见`main`函数
+```cpp
+int main(int argc, char* argv[]) {
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<Turtlebot>();
+
+    rclcpp::executors::MultiThreadedExecutor executor;
+    executor.add_node(node);
+    std::thread spin_thread([&executor](){ executor.spin();});
+
+    rclcpp::sleep_for(1000ms);
+    node->run();
+
+    rclcpp::shutdown();
+    spin_thread.join();
+    return 0;
+}
+```
+## 一个防抖设计
+当程序刚运行时，`move_to_point`函数运行始终很靠前。如果没能及时更新机器人自身状态，容易直接推出运行。见`main`函数中的`sleep`。
+```cpp
+    rclcpp::sleep_for(1000ms);
+```
 # 结果可视化
 结果通过RVIZ可视化odom话题（fixed frame=odom）
 ![轨迹RVIZ可视化](image.png)
+# 链接
+所有作业见[https://github.com/youweicao/robotics_course](https://github.com/youweicao/robotics_course)
