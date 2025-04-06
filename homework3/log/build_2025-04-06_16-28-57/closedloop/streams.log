@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/closed_loop.dir/src/closed_loop.cpp.o[0m
+[6.045s] [100%] [32m[1mLinking CXX executable closed_loop[0m
+[6.346s] [100%] Built target closed_loop
+[6.355s] Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+[6.363s] Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop
+[6.369s] -- Install configuration: ""
+[6.369s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop
+[6.372s] -- Set runtime path of "/home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop" to ""
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/package_run_dependencies/closedloop
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/parent_prefix_path/closedloop
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.sh
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.dsv
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.sh
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.dsv
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.bash
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.sh
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.zsh
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.dsv
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.dsv
+[6.372s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/packages/closedloop
+[6.373s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig.cmake
+[6.373s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig-version.cmake
+[6.373s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.xml
+[6.374s] Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop

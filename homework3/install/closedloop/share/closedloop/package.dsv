@@ -1,0 +1,8 @@
+source;share/closedloop/hook/cmake_prefix_path.ps1
+source;share/closedloop/hook/cmake_prefix_path.dsv
+source;share/closedloop/hook/cmake_prefix_path.sh
+source;share/closedloop/local_setup.bash
+source;share/closedloop/local_setup.dsv
+source;share/closedloop/local_setup.ps1
+source;share/closedloop/local_setup.sh
+source;share/closedloop/local_setup.zsh

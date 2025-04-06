@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+[0.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.122s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/ycao/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.158s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.182s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.188s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.195s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.197s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.197s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.237s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.280s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.280s] -- Configured cppcheck include dirs: 
+[0.280s] -- Configured cppcheck exclude dirs and/or files: 
+[0.280s] -- Added test 'lint_cmake' to check CMake code style
+[0.281s] -- Added test 'uncrustify' to check C / C++ code style
+[0.281s] -- Configured uncrustify additional arguments: 
+[0.281s] -- Added test 'xmllint' to check XML markup files
+[0.281s] -- Configuring done
+[0.286s] -- Generating done
+[0.288s] -- Build files have been written to: /home/ycao/robotics_course/homework3/build/closedloop
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target closed_loop[0m
+[0.318s] [ 50%] [32m[1mLinking CXX executable closed_loop[0m
+[0.590s] [100%] Built target closed_loop
+[0.598s] Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+[0.604s] Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop
+[0.608s] -- Install configuration: ""
+[0.608s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop
+[0.611s] -- Set runtime path of "/home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop" to ""
+[0.611s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/package_run_dependencies/closedloop
+[0.611s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/parent_prefix_path/closedloop
+[0.611s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.sh
+[0.611s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.dsv
+[0.611s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.sh
+[0.611s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.dsv
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.bash
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.sh
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.zsh
+[0.612s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.dsv
+[0.612s] -- Installing: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.dsv
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/packages/closedloop
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig.cmake
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig-version.cmake
+[0.612s] -- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.xml
+[0.613s] Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop

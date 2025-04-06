@@ -1,0 +1,4 @@
+source;share/closedloop/local_setup.bash
+source;share/closedloop/local_setup.dsv
+source;share/closedloop/local_setup.sh
+source;share/closedloop/local_setup.zsh

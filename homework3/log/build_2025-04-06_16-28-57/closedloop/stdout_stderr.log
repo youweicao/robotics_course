@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/closed_loop.dir/src/closed_loop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable closed_loop[0m
+[100%] Built target closed_loop
+-- Install configuration: ""
+-- Installing: /home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop
+-- Set runtime path of "/home/ycao/robotics_course/homework3/install/closedloop/lib/closedloop/closed_loop" to ""
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/package_run_dependencies/closedloop
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/parent_prefix_path/closedloop
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.sh
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/environment/path.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.bash
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.sh
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.zsh
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/local_setup.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.dsv
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/ament_index/resource_index/packages/closedloop
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig.cmake
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/cmake/closedloopConfig-version.cmake
+-- Up-to-date: /home/ycao/robotics_course/homework3/install/closedloop/share/closedloop/package.xml

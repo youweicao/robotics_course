@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250406-0906-Experimental"
+	Name="ycao-office-dev"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="ycao-office-dev"
+	OSRelease="6.8.0-50-generic"
+	OSVersion="#51~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 21 12:03:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="36864"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="24"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="31830"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="5500"
+	>
+	<Testing>
+		<StartDateTime>Apr 06 17:07 CST</StartDateTime>
+		<StartTestTime>1743930425</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 06 17:07 CST</EndDateTime>
+		<EndTestTime>1743930425</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

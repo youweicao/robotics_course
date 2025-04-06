@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+        "/home/ycao/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ycao/robotics_course/homework3/src/closedloop/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

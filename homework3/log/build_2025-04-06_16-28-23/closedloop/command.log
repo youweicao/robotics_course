@@ -1,0 +1,4 @@
+Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework3/build/closedloop -- -j32 -l32
+Invoking command in '/home/ycao/robotics_course/homework3/build/closedloop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop
+Invoked command in '/home/ycao/robotics_course/homework3/build/closedloop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework3/build/closedloop
