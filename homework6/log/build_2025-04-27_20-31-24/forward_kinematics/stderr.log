@@ -1,0 +1,4 @@
+[01m[K/home/ycao/robotics_course/homework6/src/forward_kinematics/src/forward_kinematics_dh.cpp:[m[K In function ‘[01m[Kstd::array<double, 3> forward_kinematics(const std::array<double, 3>&)[m[K’:
+[01m[K/home/ycao/robotics_course/homework6/src/forward_kinematics/src/forward_kinematics_dh.cpp:8:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klink3z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    8 |     double [01;35m[Klink3z[m[K = 0.150;
+      |            [01;35m[K^~~~~~[m[K

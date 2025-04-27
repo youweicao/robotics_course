@@ -1,0 +1,17 @@
+/home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_dh
+/home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_poe
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/package_run_dependencies/forward_kinematics
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/parent_prefix_path/forward_kinematics
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/ament_prefix_path.sh
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/ament_prefix_path.dsv
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/path.sh
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/path.dsv
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.bash
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.sh
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.zsh
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.dsv
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/package.dsv
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/packages/forward_kinematics
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/cmake/forward_kinematicsConfig.cmake
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/cmake/forward_kinematicsConfig-version.cmake
+/home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/package.xml

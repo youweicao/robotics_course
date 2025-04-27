@@ -1,0 +1,78 @@
+[0.007s] Invoking command in '/home/ycao/robotics_course/homework6/build/forward_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ycao/robotics_course/homework6/src/forward_kinematics -DCMAKE_INSTALL_PREFIX=/home/ycao/robotics_course/homework6/install/forward_kinematics
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.076s] -- The CXX compiler identification is GNU 11.4.0
+[0.080s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.123s] -- Detecting C compile features
+[0.123s] -- Detecting C compile features - done
+[0.124s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.176s] -- Detecting CXX compile features
+[0.176s] -- Detecting CXX compile features - done
+[0.178s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.330s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.365s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.376s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/ycao/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.442s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.449s] -- Looking for pthread.h
+[0.505s] -- Looking for pthread.h - found
+[0.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.551s] -- Found Threads: TRUE  
+[0.581s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.601s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.656s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.656s] -- Configured cppcheck include dirs: /home/ycao/robotics_course/homework6/src/forward_kinematics/include
+[0.656s] -- Configured cppcheck exclude dirs and/or files: 
+[0.657s] -- Added test 'lint_cmake' to check CMake code style
+[0.657s] -- Added test 'uncrustify' to check C / C++ code style
+[0.657s] -- Configured uncrustify additional arguments: 
+[0.658s] -- Added test 'xmllint' to check XML markup files
+[0.659s] -- Configuring done
+[0.664s] -- Generating done
+[0.666s] -- Build files have been written to: /home/ycao/robotics_course/homework6/build/forward_kinematics
+[0.670s] Invoked command in '/home/ycao/robotics_course/homework6/build/forward_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ycao/robotics_course/homework6/src/forward_kinematics -DCMAKE_INSTALL_PREFIX=/home/ycao/robotics_course/homework6/install/forward_kinematics
+[0.671s] Invoking command in '/home/ycao/robotics_course/homework6/build/forward_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework6/build/forward_kinematics -- -j32 -l32
+[0.701s] [ 16%] [32mBuilding CXX object CMakeFiles/forward_kinematics_dh.dir/src/test_forward_kinematics.cpp.o[0m
+[0.702s] [ 33%] [32mBuilding CXX object CMakeFiles/forward_kinematics_dh.dir/src/forward_kinematics_dh.cpp.o[0m
+[0.703s] [ 50%] [32mBuilding CXX object CMakeFiles/forward_kinematics_poe.dir/src/test_forward_kinematics.cpp.o[0m
+[0.704s] [ 66%] [32mBuilding CXX object CMakeFiles/forward_kinematics_poe.dir/src/forward_kinematics_poe.cpp.o[0m
+[1.950s] [01m[K/home/ycao/robotics_course/homework6/src/forward_kinematics/src/forward_kinematics_dh.cpp:[m[K In function ‘[01m[Kstd::array<double, 3> forward_kinematics(const std::array<double, 3>&)[m[K’:
+[1.950s] [01m[K/home/ycao/robotics_course/homework6/src/forward_kinematics/src/forward_kinematics_dh.cpp:8:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klink3z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.950s]     8 |     double [01;35m[Klink3z[m[K = 0.150;
+[1.950s]       |            [01;35m[K^~~~~~[m[K
+[3.126s] [ 83%] [32m[1mLinking CXX executable forward_kinematics_dh[0m
+[3.158s] [100%] [32m[1mLinking CXX executable forward_kinematics_poe[0m
+[3.231s] [100%] Built target forward_kinematics_dh
+[3.280s] [100%] Built target forward_kinematics_poe
+[3.288s] Invoked command in '/home/ycao/robotics_course/homework6/build/forward_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ycao/robotics_course/homework6/build/forward_kinematics -- -j32 -l32
+[3.294s] Invoking command in '/home/ycao/robotics_course/homework6/build/forward_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework6/build/forward_kinematics
+[3.299s] -- Install configuration: ""
+[3.299s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_dh
+[3.300s] -- Set runtime path of "/home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_dh" to ""
+[3.300s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_poe
+[3.301s] -- Set runtime path of "/home/ycao/robotics_course/homework6/install/forward_kinematics/lib/forward_kinematics/forward_kinematics_poe" to ""
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/package_run_dependencies/forward_kinematics
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/parent_prefix_path/forward_kinematics
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/ament_prefix_path.sh
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/ament_prefix_path.dsv
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/path.sh
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/environment/path.dsv
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.bash
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.sh
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.zsh
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/local_setup.dsv
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/package.dsv
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/ament_index/resource_index/packages/forward_kinematics
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/cmake/forward_kinematicsConfig.cmake
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/cmake/forward_kinematicsConfig-version.cmake
+[3.301s] -- Installing: /home/ycao/robotics_course/homework6/install/forward_kinematics/share/forward_kinematics/package.xml
+[3.302s] Invoked command in '/home/ycao/robotics_course/homework6/build/forward_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ycao/interbotix_ws/install/interbotix_xs_modules:/home/ycao/interbotix_ws/install/interbotix_perception_modules:/home/ycao/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ycao/robotics_course/homework6/build/forward_kinematics
